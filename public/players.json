@@ -1,0 +1,153 @@
+[
+    {
+      "playerId": 1,
+      "name": "Virat Kohli",
+      "country": "India",
+      "image": "https://i.ibb.co.com/WGGsmWs/virat.jpgs",
+      "role": "Batsman",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm medium",
+      "price": 2000000
+    },
+    {
+      "playerId": 2,
+      "name": "Rohit Sharma",
+      "country": "India",
+      "image": "https://i.ibb.co.com/0CtdrXx/rs.jpg",
+      "role": "Batsman",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm offbreak",
+      "price": 1800000
+    },
+    {
+      "playerId": 3,
+      "name": "MS Dhoni",
+      "country": "India",
+      "image": "https://i.ibb.co.com/g473Sm4/msd.jpg",
+      "role": "Wicketkeeper Batsman",
+      "battingType": "Right-hand bat",
+      "bowlingType": "None",
+      "price": 3000000
+    },
+    {
+      "playerId": 4,
+      "name": "Jos Buttler",
+      "country": "England",
+      "image": "https://i.ibb.co.com/0XGp945/butler.jpg",
+      "role": "Wicketkeeper Batsman",
+      "battingType": "Right-hand bat",
+      "bowlingType": "None",
+      "price": 1500000
+    },
+    {
+      "playerId": 5,
+      "name": "Jofra Archer",
+      "country": "England",
+      "image": "https://i.ibb.co.com/3BHNB7g/jofra.jpg",
+      "role": "Bowler",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm fast",
+      "price": 2000000
+    },
+    {
+      "playerId": 6,
+      "name": "Jasprit Bumrah",
+      "country": "India",
+      "image": "https://i.ibb.co.com/6rZx3Vj/jsb.jpg",
+      "role": "Bowler",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm fast",
+      "price": 2500000
+    },
+    {
+      "playerId": 7,
+      "name": "Glenn Maxwell",
+      "country": "Australia",
+      "image": "https://i.ibb.co.com/M1HR9N7/075r9f6k-glenn-maxwell-ani-640x480-07-November-23.webp",
+      "role": "All-rounder",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm offbreak",
+      "price": 1500000
+    },
+    {
+      "playerId": 8,
+      "name": "Ben Stokes",
+      "country": "England",
+      "image": "https://i.ibb.co.com/DVKgvfq/Ben-Stokes-CWC19.png",
+      "role": "All-rounder",
+      "battingType": "Left-hand bat",
+      "bowlingType": "Right-arm fast-medium",
+      "price": 1000000
+    },
+    {
+      "playerId": 9,
+      "name": "Kane Williamson",
+      "country": "New Zealand",
+      "image": "https://i.ibb.co.com/gm9bZ0K/Kane-Williamson-1024x768.webp",
+      "role": "Batsman",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm offbreak",
+      "price": 1400000
+    },
+    {
+      "playerId": 10,
+      "name": "Rashid Khan",
+      "country": "Afghanistan",
+      "image": "https://i.ibb.co.com/k6gFqRP/rasid-khan.jpg",
+      "role": "Bowler",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm legbreak googly",
+      "price": 1300000
+    },
+    {
+      "playerId": 11,
+      "name": "David Warner",
+      "country": "Australia",
+      "image": "https://i.ibb.co.com/XLWfY3W/david-warner-625x300-20-June-19.webp",
+      "role": "Batsman",
+      "battingType": "Left-hand bat",
+      "bowlingType": "Right-arm legbreak",
+      "price": 1500000
+    },
+    {
+      "playerId": 12,
+      "name": "Steve Smith",
+      "country": "Australia",
+      "image": "https://i.ibb.co.com/G5SvGZg/steve-smith-australia-5188434.webp",
+      "role": "Batsman",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm legbreak",
+      "price": 1000000
+    },
+    {
+      "playerId": 13,
+      "name": "Quinton de Kock",
+      "country": "South Africa",
+      "image": "https://i.ibb.co.com/bryD8Cm/quinton-de-kock-09-10-2023.png",
+      "role": "Wicketkeeper Batsman",
+      "battingType": "Left-hand bat",
+      "bowlingType": "None",
+      "price": 1600000
+    },
+    {
+      "playerId": 14,
+      "name": "Pat Cummins",
+      "country": "Australia",
+      "image": "https://i.ibb.co.com/VWJWLBB/cummins.jpg",
+      "role": "Bowler",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm fast",
+      "price": 1800000
+    },
+    {
+      "playerId": 15,
+      "name": "Shakib Al Hasan",
+      "country": "Bangladesh",
+      "image": "https://i.ibb.co.com/B2RGp7L/sakib.jpg",
+      "role": "All-rounder",
+      "battingType": "Left-hand bat",
+      "bowlingType": "Left-arm orthodox spin",
+      "price": 1400000
+    }
+  ]
+  
