@@ -2,7 +2,7 @@ const Footer = () => {
     return (
         <div className="bg-black">
             <div>
-                <div className="flex justify-center items-center pt-52">
+                <div className="flex justify-center items-center pt-60">
                     <img src="../../assets/logo-footer.png" alt="" />
                 </div>
                 <div className="md:flex md:justify-around w-11/12 mx-auto gap-16 pb-10 border-b-2 border-b-slate-300 mt-20">
@@ -23,8 +23,8 @@ const Footer = () => {
                         <h3 className="font-semibold text-lg text-white mb-5">Subscribe</h3>
                         <p className="text-[#FFFFFF99] mb-3">Subscribe to our newsletter for the latest updates.</p>
                         <div>
-                            <input className="px-10 mr-1 md:mr-5 py-3 border-2 rounded-lg" type="email" name="" id="" placeholder="Enter your email" />
-                            <button className="btn bg-[#e8a758f7] font-bold">Subscribe</button>
+                            <input className="px-10 py-2 border-2 rounded-lg" type="email" name="" id="" placeholder="Enter your email" />
+                            <button className="btn py-1 bg-[#e8a758f7] font-bold">Subscribe</button>
                         </div>
                     </div>
                 </div>

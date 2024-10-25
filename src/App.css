@@ -1,3 +1,9 @@
 .sora-font{
     font-family: "Sora", sans-serif;
 }
+.active{
+    background-color: #E7FE29;
+    font-weight: 700;
+    color: black;
+    
+}
