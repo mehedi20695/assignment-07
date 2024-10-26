@@ -4,7 +4,7 @@ const Navbar = ({coins}) => {
         <div className="mb-5 sticky top-0 z-50 backdrop-blur-2xl">
             <div className="md:navbar">
                 <div className="flex-1">
-                    <img src="../../assets/logo.png" alt="logo" />
+                    <img src="/assets/logo.png" alt="logo" />
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-1 color-[#131313B3]">
@@ -19,6 +19,7 @@ const Navbar = ({coins}) => {
         </div>
     );
 };
+
 Navbar.propTypes = {
     coins: PropTypes.number.isRequired,  // 'func' type, and it's required
 };

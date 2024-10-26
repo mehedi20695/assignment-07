@@ -9,22 +9,28 @@ import Footer from "./components/Footer";
 import SelectedPlayers from "./components/SelectedPlayers";
 import AvailablePlayers from "./components/AvailablePlayers";
 const App = () => {
+
+  // set states
   const [coins, setCoins] = useState(0);
   const [players, setPlayers] = useState([]);
   const [selectedPlayers, setSelectedPlayers] = useState([]);
   const [showAvailable, setShowAvailable] = useState(true);
 
+  // fetching fake data
   useEffect(() => {
-    fetch('../public/players.json')
+    fetch('./players.json')
       .then(response => response.json())
       .then(data => setPlayers(data))
       .catch(err => console.error('Error loading players:', err));
   }, []);
 
+  // handle add coins
   const handleAddCoins = () => {
     setCoins(coins + 5000000);
     toast.success('Your free credits are added successfully!');
   };
+
+  // handle selected players on selected section
   const handleSelectPlayer = (player) => {
     if (coins < player.price) {
       toast.error('Not enough coins!');
@@ -43,6 +49,7 @@ const App = () => {
     toast.success(`${player.name} selected!`);
   };
 
+  // handle remove player from selected section
   const handleRemovePlayer = (playerId) => {
     const playerToRemove = selectedPlayers.find(p => p.playerId === playerId);
     setSelectedPlayers(selectedPlayers.filter(p => p.playerId !== playerId));
@@ -59,7 +66,7 @@ const App = () => {
         {/* banner */}
         <Banner handleAddCoins={handleAddCoins}></Banner>
 
-        <div className='flex justify-between items-center my-10'>
+        <div className='md:flex md:justify-between md:items-center mt-10'>
           <h1></h1>
           <div>
             {/* Available button */}
@@ -71,11 +78,12 @@ const App = () => {
             'border rounded-r-2xl px-10 py-3 text-[#13131399]'}>Selected ( {selectedPlayers.length} )</button>
           </div>
         </div>
+        {/* showing available and selected sections */}
         {showAvailable? 
         (<AvailablePlayers players={players}
-         onSelectPlayer={handleSelectPlayer}></AvailablePlayers>) :
+          handleSelectPlayer={handleSelectPlayer}></AvailablePlayers>) :
          (<SelectedPlayers players={selectedPlayers}
-         onRemovePlayer={handleRemovePlayer} 
+          handleRemovePlayer={handleRemovePlayer} 
          setShowAvailable={setShowAvailable}></SelectedPlayers>)}
 
         {/* subscribe */}

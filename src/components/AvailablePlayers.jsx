@@ -1,8 +1,10 @@
 import PropTypes from 'prop-types';
-const AvailablePlayers = ({ players, onSelectPlayer }) => {
+const AvailablePlayers = ({ players, handleSelectPlayer }) => {
     return (
         <div>
-            <h1 className='text-3xl font-bold w-1/2 relative -top-20'>Available Players</h1>
+            <h1 className='text-3xl font-bold mb-5'>Available Players</h1>
+
+            {/* players card */}
             <div className='grid grid-cols-1 md:grid-cols-3 gap-3'>
                 {players.map(player => (
                     <div className="border-2 rounded-lg p-3" key={player.playerId}>
@@ -19,8 +21,8 @@ const AvailablePlayers = ({ players, onSelectPlayer }) => {
                             </div>
                             <div className='flex justify-between items-center gap-10'>
                                 <p className='font-semibold'>Price: {player.price}</p>
-                                <button onClick={() => onSelectPlayer(player)}
-                                    className='btn btn-success'>Choose Player</button>
+                                <button onClick={() => handleSelectPlayer(player)}
+                                    className='btn bg-[#aad7dd]'>Choose Player</button>
                             </div>
                         </div>
                     </div>
@@ -31,6 +33,6 @@ const AvailablePlayers = ({ players, onSelectPlayer }) => {
 };
 AvailablePlayers.propTypes = {
     players: PropTypes.array.isRequired,
-    onSelectPlayer: PropTypes.func.isRequired,
+    handleSelectPlayer: PropTypes.func.isRequired,
 };
 export default AvailablePlayers;
